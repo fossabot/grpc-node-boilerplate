@@ -1,0 +1,26 @@
+{
+  "name": "Nodejs-Boilerplate",
+  "version": "1.0.0",
+  "description": "A microservice boilerplate for node-grpc",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "npm": ">=3",
+    "node": ">=6"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Yuvraj <evalsocket>",
+  "license": "MIT",
+  "dependencies": {
+    "app-module-path": "^2.2.0",
+    "colors": "^1.1.2",
+    "grpc": "^1.2.0",
+    "nodemon": "^1.11.0"
+  }
+}
