@@ -15,11 +15,6 @@ const start = function(serverIP, serverPort) {
     var userStream;
     
     var users = [
-        {
-            id: 123,
-            name: 'Jimi Hendrix',
-            email: 'Jimi@heaven.org'
-        }
     ];
 
     grpcServer.addProtoService(baseProto.base.grpcService.service, {
